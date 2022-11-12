@@ -71,3 +71,10 @@ bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release
 ```
 bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ help
 ```
+
+# v2ray-install
+
+Bash脚本，用于在支持systemd的操作系统（如CentOS / Debian / OpenSUSE）中安装v2ray。
+```
+curl -Ls https://ghproxy.com/https://raw.githubusercontent.com/scdlyh/Xray-install/main/v2ray-install-release.sh | sudo bash
+```
