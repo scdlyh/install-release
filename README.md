@@ -25,19 +25,19 @@ installed: /var/log/xray/error.log
 **使用`User=nobody`安装和升级Xray核心和地理数据，但不会覆盖现有服务文件中的用户**
 
 ```
-bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ install
+bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ install
 ```
 
 **仅更新地理.dat和地理站点.dat**
 
 ```
-bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ install-geodata
+bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ install-geodata
 ```
 
 **删除 Xray，但 json 和日志除外**
 
 ```
-# bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ remove
+# bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ remove
 ```
 
 ## 进阶
@@ -45,7 +45,7 @@ bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release
 **安装并将 Xray 内核升级到预发布版本**
 
 ```
-bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ install --version 1.5.8
+bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ install --version 1.5.8
 ```
 
 **使用`User=root`安装和升级 Xray 核心和地理数据，这将覆盖现有服务文件中的用户**
@@ -57,19 +57,19 @@ bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release
 **安装和升级Xray核心，无需地理数据**
 
 ```
-bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ install --without-geodata
+bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ install --without-geodata
 ```
 
 **删除 Xray，包括 json 和日志**
 
 ```
-bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ remove --purge
+bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ remove --purge
 ```
 
 ## 更多用法
 
 ```
-bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release//main/Xray-install-release.sh)" @ help
+bash -c "$(curl -L https://ghproxy.com/https://github.com/scdlyh/install-release/main/Xray-install-release.sh)" @ help
 ```
 
 # v2ray-install
